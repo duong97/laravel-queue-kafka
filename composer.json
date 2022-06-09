@@ -1,12 +1,12 @@
 {
     "name": "duong97/laravel-queue-kafka",
-    "description": "Kafka driver for Laravel Queue",
+    "description": "Kafka driver for Laravel Queue - fork from rapide/laravel-queue-kafka",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Peter Mein",
-            "email": "petermein@gmail.com"
+            "name": "Rapide",
+            "email": "rapide@gmail.com"
         }
     ],
     "require": {
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Rapide\\LaravelQueueKafka\\": "src/"
+            "RapideFork\\LaravelQueueKafka\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rapide\\LaravelQueueKafka\\LaravelQueueKafkaServiceProvider"
+                "RapideFork\\LaravelQueueKafka\\LaravelQueueKafkaServiceProvider"
             ]
         }
     },
